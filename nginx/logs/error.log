@@ -1,0 +1,741 @@
+2023/06/27 03:43:48 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:44:50 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:45:17 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:46:25 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:47:45 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:49:03 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:50:30 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 03:59:20 [notice] 46#46: signal process started
+2023/06/27 04:02:41 [notice] 36#36: signal process started
+2023/06/27 04:15:50 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:16:30 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:17:17 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:17:52 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:18:33 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:19:02 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:19:42 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:28:47 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/nginx.conf:29
+2023/06/27 04:36:37 [notice] 36#36: signal process started
+2023/06/27 04:39:49 [notice] 45#45: signal process started
+2023/06/27 04:48:02 [error] 20#20: *1 open() "/var/www/wordpress/wp-includes/css/dashicons.min.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-includes/css/dashicons.min.css?ver=6.2.2 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 21#21: *3 open() "/var/www/wordpress/wp-includes/css/buttons.min.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-includes/css/buttons.min.css?ver=6.2.2 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 22#22: *4 open() "/var/www/wordpress/wp-admin/css/forms.min.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-admin/css/forms.min.css?ver=6.2.2 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 23#23: *5 open() "/var/www/wordpress/wp-admin/css/l10n.min.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-admin/css/l10n.min.css?ver=6.2.2 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 24#24: *6 open() "/var/www/wordpress/wp-admin/css/install.min.css" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-admin/css/install.min.css?ver=6.2.2 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 25#25: *7 open() "/var/www/wordpress/wp-includes/js/jquery/jquery.min.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-includes/js/jquery/jquery.min.js?ver=3.6.4 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 20#20: *1 open() "/var/www/wordpress/wp-includes/js/jquery/jquery-migrate.min.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 21#21: *3 open() "/var/www/wordpress/wp-admin/js/language-chooser.min.js" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /wp-admin/js/language-chooser.min.js?ver=6.2.2 HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:48:02 [error] 21#21: *3 open() "/var/www/wordpress/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/setup-config.php?step=1&language=ru_RU"
+2023/06/27 04:53:45 [notice] 37#37: signal process started
+2023/06/27 04:57:49 [emerg] 46#46: open() "/etc/nginx/snippets/fastcgi-php.conf" failed (2: No such file or directory) in /etc/nginx/nginx.conf:25
+2023/06/27 04:58:24 [notice] 49#49: signal process started
+2023/06/27 04:59:39 [notice] 58#58: signal process started
+2023/06/27 05:00:21 [notice] 67#67: signal process started
+2023/06/27 05:01:27 [emerg] 76#76: open() "/etc/nginx/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:7
+2023/06/27 05:01:46 [notice] 77#77: signal process started
+2023/06/27 05:02:39 [emerg] 86#86: invalid location modifier "*~" in /etc/nginx/nginx.conf:24
+2023/06/27 05:02:46 [notice] 87#87: signal process started
+2023/06/27 05:03:13 [notice] 96#96: signal process started
+2023/06/27 05:04:03 [notice] 105#105: signal process started
+2023/06/27 05:04:37 [notice] 114#114: signal process started
+2023/06/27 05:07:00 [notice] 123#123: signal process started
+2023/06/27 05:09:52 [notice] 132#132: signal process started
+2023/06/27 05:12:44 [notice] 141#141: signal process started
+2023/06/27 05:13:18 [notice] 150#150: signal process started
+2023/06/27 05:19:05 [notice] 159#159: signal process started
+2023/06/27 05:21:19 [notice] 168#168: signal process started
+2023/06/27 05:29:41 [notice] 177#177: signal process started
+2023/06/27 05:30:26 [notice] 186#186: signal process started
+2023/06/27 05:30:27 [error] 187#187: *825 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:28 [error] 188#188: *826 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:28 [error] 189#189: *827 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:28 [error] 190#190: *828 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:29 [error] 191#191: *829 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:29 [error] 192#192: *830 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:29 [error] 193#193: *831 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:29 [error] 194#194: *832 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:29 [error] 187#187: *833 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:29 [error] 187#187: *834 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:30 [error] 187#187: *835 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:30 [error] 188#188: *836 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:38 [error] 187#187: *837 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:38 [error] 187#187: *838 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:39 [error] 187#187: *839 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:30:39 [error] 187#187: *840 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:30:52 [emerg] 195#195: invalid location modifier "*~" in /etc/nginx/nginx.conf:24
+2023/06/27 05:31:01 [notice] 196#196: signal process started
+2023/06/27 05:31:02 [error] 197#197: *841 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:31:02 [error] 198#198: *842 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:31:03 [error] 199#199: *843 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:31:03 [error] 200#200: *844 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:31:03 [error] 201#201: *846 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:31:04 [error] 202#202: *845 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:31:04 [error] 203#203: *848 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /wp-admin/ HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-login.php"
+2023/06/27 05:31:05 [error] 204#204: *847 rewrite or internal redirection cycle while internally redirecting to "/index.php", client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/"
+2023/06/27 05:31:09 [notice] 205#205: signal process started
+2023/06/27 05:33:31 [notice] 214#214: signal process started
+2023/06/27 05:37:45 [notice] 223#223: signal process started
+2023/06/27 05:40:49 [emerg] 232#232: invalid number of arguments in "return" directive in /etc/nginx/nginx.conf:24
+2023/06/27 05:40:57 [notice] 233#233: signal process started
+2023/06/27 05:42:15 [notice] 242#242: signal process started
+2023/06/27 05:43:35 [notice] 251#251: signal process started
+2023/06/27 06:27:01 [notice] 1#1: using the "epoll" event method
+2023/06/27 06:27:01 [notice] 1#1: nginx/1.25.0
+2023/06/27 06:27:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/06/27 06:27:01 [notice] 1#1: OS: Linux 5.19.0-45-generic
+2023/06/27 06:27:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/27 06:27:01 [notice] 1#1: start worker processes
+2023/06/27 06:27:01 [notice] 1#1: start worker process 20
+2023/06/27 06:27:01 [notice] 1#1: start worker process 21
+2023/06/27 06:27:01 [notice] 1#1: start worker process 22
+2023/06/27 06:27:01 [notice] 1#1: start worker process 23
+2023/06/27 06:27:01 [notice] 1#1: start worker process 24
+2023/06/27 06:27:01 [notice] 1#1: start worker process 25
+2023/06/27 06:27:01 [notice] 1#1: start worker process 26
+2023/06/27 06:27:01 [notice] 1#1: start worker process 27
+2023/06/27 06:27:01 [notice] 1#1: start worker process 28
+2023/06/27 06:27:01 [notice] 1#1: start worker process 29
+2023/06/27 06:27:01 [notice] 1#1: start worker process 30
+2023/06/27 06:27:01 [notice] 1#1: start worker process 31
+2023/06/27 06:27:01 [notice] 1#1: start worker process 32
+2023/06/27 06:27:01 [notice] 1#1: start worker process 33
+2023/06/27 06:27:01 [notice] 1#1: start worker process 34
+2023/06/27 06:27:01 [notice] 1#1: start worker process 35
+2023/06/27 06:27:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/27 06:27:18 [notice] 20#20: gracefully shutting down
+2023/06/27 06:27:18 [notice] 21#21: gracefully shutting down
+2023/06/27 06:27:18 [notice] 23#23: gracefully shutting down
+2023/06/27 06:27:18 [notice] 24#24: gracefully shutting down
+2023/06/27 06:27:18 [notice] 27#27: gracefully shutting down
+2023/06/27 06:27:18 [notice] 26#26: gracefully shutting down
+2023/06/27 06:27:18 [notice] 28#28: gracefully shutting down
+2023/06/27 06:27:18 [notice] 20#20: exiting
+2023/06/27 06:27:18 [notice] 21#21: exiting
+2023/06/27 06:27:18 [notice] 30#30: gracefully shutting down
+2023/06/27 06:27:18 [notice] 23#23: exiting
+2023/06/27 06:27:18 [notice] 22#22: gracefully shutting down
+2023/06/27 06:27:18 [notice] 24#24: exiting
+2023/06/27 06:27:18 [notice] 27#27: exiting
+2023/06/27 06:27:18 [notice] 26#26: exiting
+2023/06/27 06:27:18 [notice] 29#29: gracefully shutting down
+2023/06/27 06:27:18 [notice] 31#31: gracefully shutting down
+2023/06/27 06:27:18 [notice] 25#25: gracefully shutting down
+2023/06/27 06:27:18 [notice] 34#34: gracefully shutting down
+2023/06/27 06:27:18 [notice] 32#32: gracefully shutting down
+2023/06/27 06:27:18 [notice] 28#28: exiting
+2023/06/27 06:27:18 [notice] 30#30: exiting
+2023/06/27 06:27:18 [notice] 22#22: exiting
+2023/06/27 06:27:18 [notice] 20#20: exit
+2023/06/27 06:27:18 [notice] 21#21: exit
+2023/06/27 06:27:18 [notice] 23#23: exit
+2023/06/27 06:27:18 [notice] 29#29: exiting
+2023/06/27 06:27:18 [notice] 27#27: exit
+2023/06/27 06:27:18 [notice] 24#24: exit
+2023/06/27 06:27:18 [notice] 26#26: exit
+2023/06/27 06:27:18 [notice] 31#31: exiting
+2023/06/27 06:27:18 [notice] 25#25: exiting
+2023/06/27 06:27:18 [notice] 34#34: exiting
+2023/06/27 06:27:18 [notice] 32#32: exiting
+2023/06/27 06:27:18 [notice] 28#28: exit
+2023/06/27 06:27:18 [notice] 30#30: exit
+2023/06/27 06:27:18 [notice] 22#22: exit
+2023/06/27 06:27:18 [notice] 29#29: exit
+2023/06/27 06:27:18 [notice] 31#31: exit
+2023/06/27 06:27:18 [notice] 25#25: exit
+2023/06/27 06:27:18 [notice] 34#34: exit
+2023/06/27 06:27:18 [notice] 32#32: exit
+2023/06/27 06:27:18 [notice] 35#35: gracefully shutting down
+2023/06/27 06:27:18 [notice] 33#33: gracefully shutting down
+2023/06/27 06:27:18 [notice] 35#35: exiting
+2023/06/27 06:27:18 [notice] 33#33: exiting
+2023/06/27 06:27:18 [notice] 35#35: exit
+2023/06/27 06:27:18 [notice] 33#33: exit
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/06/27 06:27:18 [notice] 1#1: worker process 25 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: worker process 31 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: worker process 32 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/06/27 06:27:18 [notice] 1#1: worker process 30 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/06/27 06:27:18 [notice] 1#1: worker process 35 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/27 06:27:18 [notice] 1#1: worker process 21 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/06/27 06:27:18 [notice] 1#1: worker process 29 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/06/27 06:27:18 [notice] 1#1: worker process 34 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: worker process 22 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: worker process 33 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/27 06:27:18 [notice] 1#1: worker process 20 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: worker process 23 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: worker process 27 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/06/27 06:27:18 [notice] 1#1: worker process 26 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/06/27 06:27:18 [notice] 1#1: worker process 24 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/06/27 06:27:18 [notice] 1#1: worker process 28 exited with code 0
+2023/06/27 06:27:18 [notice] 1#1: exit
+2023/06/27 06:28:12 [notice] 1#1: using the "epoll" event method
+2023/06/27 06:28:12 [notice] 1#1: nginx/1.25.0
+2023/06/27 06:28:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/06/27 06:28:12 [notice] 1#1: OS: Linux 5.19.0-45-generic
+2023/06/27 06:28:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/27 06:28:12 [notice] 1#1: start worker processes
+2023/06/27 06:28:12 [notice] 1#1: start worker process 20
+2023/06/27 06:28:12 [notice] 1#1: start worker process 21
+2023/06/27 06:28:12 [notice] 1#1: start worker process 22
+2023/06/27 06:28:12 [notice] 1#1: start worker process 23
+2023/06/27 06:28:12 [notice] 1#1: start worker process 24
+2023/06/27 06:28:12 [notice] 1#1: start worker process 25
+2023/06/27 06:28:12 [notice] 1#1: start worker process 26
+2023/06/27 06:28:12 [notice] 1#1: start worker process 27
+2023/06/27 06:28:12 [notice] 1#1: start worker process 28
+2023/06/27 06:28:12 [notice] 1#1: start worker process 29
+2023/06/27 06:28:12 [notice] 1#1: start worker process 30
+2023/06/27 06:28:12 [notice] 1#1: start worker process 31
+2023/06/27 06:28:12 [notice] 1#1: start worker process 32
+2023/06/27 06:28:12 [notice] 1#1: start worker process 33
+2023/06/27 06:28:12 [notice] 1#1: start worker process 34
+2023/06/27 06:28:12 [notice] 1#1: start worker process 35
+2023/06/27 06:30:59 [notice] 43#43: signal process started
+2023/06/27 06:30:59 [notice] 1#1: signal 1 (SIGHUP) received from 43, reconfiguring
+2023/06/27 06:30:59 [notice] 1#1: reconfiguring
+2023/06/27 06:30:59 [notice] 1#1: using the "epoll" event method
+2023/06/27 06:30:59 [notice] 1#1: start worker processes
+2023/06/27 06:30:59 [notice] 1#1: start worker process 44
+2023/06/27 06:30:59 [notice] 1#1: start worker process 45
+2023/06/27 06:30:59 [notice] 1#1: start worker process 46
+2023/06/27 06:30:59 [notice] 1#1: start worker process 47
+2023/06/27 06:30:59 [notice] 1#1: start worker process 48
+2023/06/27 06:30:59 [notice] 1#1: start worker process 49
+2023/06/27 06:30:59 [notice] 1#1: start worker process 50
+2023/06/27 06:30:59 [notice] 1#1: start worker process 51
+2023/06/27 06:30:59 [notice] 1#1: start worker process 52
+2023/06/27 06:30:59 [notice] 1#1: start worker process 53
+2023/06/27 06:30:59 [notice] 1#1: start worker process 54
+2023/06/27 06:30:59 [notice] 1#1: start worker process 55
+2023/06/27 06:30:59 [notice] 1#1: start worker process 56
+2023/06/27 06:30:59 [notice] 1#1: start worker process 57
+2023/06/27 06:30:59 [notice] 1#1: start worker process 58
+2023/06/27 06:30:59 [notice] 1#1: start worker process 59
+2023/06/27 06:30:59 [notice] 21#21: gracefully shutting down
+2023/06/27 06:30:59 [notice] 20#20: gracefully shutting down
+2023/06/27 06:30:59 [notice] 22#22: gracefully shutting down
+2023/06/27 06:30:59 [notice] 23#23: gracefully shutting down
+2023/06/27 06:30:59 [notice] 25#25: gracefully shutting down
+2023/06/27 06:30:59 [notice] 24#24: gracefully shutting down
+2023/06/27 06:30:59 [notice] 26#26: gracefully shutting down
+2023/06/27 06:30:59 [notice] 28#28: gracefully shutting down
+2023/06/27 06:30:59 [notice] 30#30: gracefully shutting down
+2023/06/27 06:30:59 [notice] 32#32: gracefully shutting down
+2023/06/27 06:30:59 [notice] 31#31: gracefully shutting down
+2023/06/27 06:30:59 [notice] 33#33: gracefully shutting down
+2023/06/27 06:30:59 [notice] 35#35: gracefully shutting down
+2023/06/27 06:30:59 [notice] 31#31: exiting
+2023/06/27 06:30:59 [notice] 22#22: exiting
+2023/06/27 06:30:59 [notice] 23#23: exiting
+2023/06/27 06:30:59 [notice] 27#27: gracefully shutting down
+2023/06/27 06:30:59 [notice] 29#29: gracefully shutting down
+2023/06/27 06:30:59 [notice] 25#25: exiting
+2023/06/27 06:30:59 [notice] 26#26: exiting
+2023/06/27 06:30:59 [notice] 24#24: exiting
+2023/06/27 06:30:59 [notice] 28#28: exiting
+2023/06/27 06:30:59 [notice] 30#30: exiting
+2023/06/27 06:30:59 [notice] 32#32: exiting
+2023/06/27 06:30:59 [notice] 33#33: exiting
+2023/06/27 06:30:59 [notice] 35#35: exiting
+2023/06/27 06:30:59 [notice] 21#21: exiting
+2023/06/27 06:30:59 [notice] 29#29: exiting
+2023/06/27 06:30:59 [notice] 27#27: exiting
+2023/06/27 06:30:59 [notice] 31#31: exit
+2023/06/27 06:30:59 [notice] 23#23: exit
+2023/06/27 06:30:59 [notice] 22#22: exit
+2023/06/27 06:30:59 [notice] 25#25: exit
+2023/06/27 06:30:59 [notice] 26#26: exit
+2023/06/27 06:30:59 [notice] 28#28: exit
+2023/06/27 06:30:59 [notice] 30#30: exit
+2023/06/27 06:30:59 [notice] 24#24: exit
+2023/06/27 06:30:59 [notice] 32#32: exit
+2023/06/27 06:30:59 [notice] 33#33: exit
+2023/06/27 06:30:59 [notice] 21#21: exit
+2023/06/27 06:30:59 [notice] 35#35: exit
+2023/06/27 06:30:59 [notice] 29#29: exit
+2023/06/27 06:30:59 [notice] 27#27: exit
+2023/06/27 06:30:59 [notice] 34#34: gracefully shutting down
+2023/06/27 06:30:59 [notice] 34#34: exiting
+2023/06/27 06:30:59 [notice] 34#34: exit
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/27 06:30:59 [notice] 1#1: worker process 21 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 24 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 22 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 32 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/06/27 06:30:59 [notice] 1#1: worker process 30 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/06/27 06:30:59 [notice] 1#1: worker process 28 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 33 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 34 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 35 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/06/27 06:30:59 [notice] 1#1: worker process 23 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/06/27 06:30:59 [notice] 1#1: worker process 26 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 27 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/06/27 06:30:59 [notice] 1#1: worker process 29 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: worker process 31 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/27 06:30:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/06/27 06:30:59 [notice] 1#1: worker process 25 exited with code 0
+2023/06/27 06:30:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:01 [notice] 20#20: exiting
+2023/06/27 06:31:01 [notice] 20#20: exit
+2023/06/27 06:31:01 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/06/27 06:31:01 [notice] 1#1: worker process 20 exited with code 0
+2023/06/27 06:31:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:01 [error] 44#44: *9 directory index of "/var/www/html/" is forbidden, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:150"
+2023/06/27 06:31:01 [error] 44#44: *9 directory index of "/var/www/html/" is forbidden, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:150"
+2023/06/27 06:31:02 [error] 44#44: *9 directory index of "/var/www/html/" is forbidden, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:150"
+2023/06/27 06:31:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/27 06:31:37 [notice] 44#44: gracefully shutting down
+2023/06/27 06:31:37 [notice] 46#46: gracefully shutting down
+2023/06/27 06:31:37 [notice] 47#47: gracefully shutting down
+2023/06/27 06:31:37 [notice] 48#48: gracefully shutting down
+2023/06/27 06:31:37 [notice] 49#49: gracefully shutting down
+2023/06/27 06:31:37 [notice] 51#51: gracefully shutting down
+2023/06/27 06:31:37 [notice] 55#55: gracefully shutting down
+2023/06/27 06:31:37 [notice] 45#45: gracefully shutting down
+2023/06/27 06:31:37 [notice] 55#55: exiting
+2023/06/27 06:31:37 [notice] 50#50: gracefully shutting down
+2023/06/27 06:31:37 [notice] 58#58: gracefully shutting down
+2023/06/27 06:31:37 [notice] 50#50: exiting
+2023/06/27 06:31:37 [notice] 46#46: exiting
+2023/06/27 06:31:37 [notice] 58#58: exiting
+2023/06/27 06:31:37 [notice] 47#47: exiting
+2023/06/27 06:31:37 [notice] 55#55: exit
+2023/06/27 06:31:37 [notice] 50#50: exit
+2023/06/27 06:31:37 [notice] 48#48: exiting
+2023/06/27 06:31:37 [notice] 58#58: exit
+2023/06/27 06:31:37 [notice] 46#46: exit
+2023/06/27 06:31:37 [notice] 49#49: exiting
+2023/06/27 06:31:37 [notice] 47#47: exit
+2023/06/27 06:31:37 [notice] 51#51: exiting
+2023/06/27 06:31:37 [notice] 48#48: exit
+2023/06/27 06:31:37 [notice] 49#49: exit
+2023/06/27 06:31:37 [notice] 51#51: exit
+2023/06/27 06:31:37 [notice] 44#44: exiting
+2023/06/27 06:31:37 [notice] 44#44: exit
+2023/06/27 06:31:37 [notice] 53#53: gracefully shutting down
+2023/06/27 06:31:37 [notice] 56#56: gracefully shutting down
+2023/06/27 06:31:37 [notice] 54#54: gracefully shutting down
+2023/06/27 06:31:37 [notice] 53#53: exiting
+2023/06/27 06:31:37 [notice] 52#52: gracefully shutting down
+2023/06/27 06:31:37 [notice] 56#56: exiting
+2023/06/27 06:31:37 [notice] 54#54: exiting
+2023/06/27 06:31:37 [notice] 57#57: gracefully shutting down
+2023/06/27 06:31:37 [notice] 52#52: exiting
+2023/06/27 06:31:37 [notice] 57#57: exiting
+2023/06/27 06:31:37 [notice] 53#53: exit
+2023/06/27 06:31:37 [notice] 56#56: exit
+2023/06/27 06:31:37 [notice] 54#54: exit
+2023/06/27 06:31:37 [notice] 59#59: gracefully shutting down
+2023/06/27 06:31:37 [notice] 52#52: exit
+2023/06/27 06:31:37 [notice] 57#57: exit
+2023/06/27 06:31:37 [notice] 59#59: exiting
+2023/06/27 06:31:37 [notice] 59#59: exit
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2023/06/27 06:31:37 [notice] 1#1: worker process 47 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 55 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 56 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 57 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2023/06/27 06:31:37 [notice] 1#1: worker process 46 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 48 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 51 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2023/06/27 06:31:37 [notice] 1#1: worker process 53 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2023/06/27 06:31:37 [notice] 1#1: worker process 54 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 58 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 59 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2023/06/27 06:31:37 [notice] 1#1: worker process 52 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: worker process 49 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 49
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2023/06/27 06:31:37 [notice] 1#1: worker process 50 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:37 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2023/06/27 06:31:37 [notice] 1#1: worker process 44 exited with code 0
+2023/06/27 06:31:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/27 06:31:38 [notice] 45#45: exiting
+2023/06/27 06:31:38 [notice] 45#45: exit
+2023/06/27 06:31:38 [notice] 1#1: signal 17 (SIGCHLD) received from 45
+2023/06/27 06:31:38 [notice] 1#1: worker process 45 exited with code 0
+2023/06/27 06:31:38 [notice] 1#1: exit
+2023/06/27 06:31:47 [notice] 1#1: using the "epoll" event method
+2023/06/27 06:31:47 [notice] 1#1: nginx/1.25.0
+2023/06/27 06:31:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/06/27 06:31:47 [notice] 1#1: OS: Linux 5.19.0-45-generic
+2023/06/27 06:31:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/27 06:31:47 [notice] 1#1: start worker processes
+2023/06/27 06:31:47 [notice] 1#1: start worker process 20
+2023/06/27 06:31:47 [notice] 1#1: start worker process 21
+2023/06/27 06:31:47 [notice] 1#1: start worker process 22
+2023/06/27 06:31:47 [notice] 1#1: start worker process 23
+2023/06/27 06:31:47 [notice] 1#1: start worker process 24
+2023/06/27 06:31:47 [notice] 1#1: start worker process 25
+2023/06/27 06:31:47 [notice] 1#1: start worker process 26
+2023/06/27 06:31:47 [notice] 1#1: start worker process 27
+2023/06/27 06:31:47 [notice] 1#1: start worker process 28
+2023/06/27 06:31:47 [notice] 1#1: start worker process 29
+2023/06/27 06:31:47 [notice] 1#1: start worker process 30
+2023/06/27 06:31:47 [notice] 1#1: start worker process 31
+2023/06/27 06:31:47 [notice] 1#1: start worker process 32
+2023/06/27 06:31:47 [notice] 1#1: start worker process 33
+2023/06/27 06:31:47 [notice] 1#1: start worker process 34
+2023/06/27 06:31:47 [notice] 1#1: start worker process 35
+2023/06/28 06:28:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/06/28 06:28:56 [notice] 20#20: gracefully shutting down
+2023/06/28 06:28:56 [notice] 21#21: gracefully shutting down
+2023/06/28 06:28:56 [notice] 23#23: gracefully shutting down
+2023/06/28 06:28:56 [notice] 24#24: gracefully shutting down
+2023/06/28 06:28:56 [notice] 26#26: gracefully shutting down
+2023/06/28 06:28:56 [notice] 22#22: gracefully shutting down
+2023/06/28 06:28:56 [notice] 28#28: gracefully shutting down
+2023/06/28 06:28:56 [notice] 32#32: gracefully shutting down
+2023/06/28 06:28:56 [notice] 27#27: gracefully shutting down
+2023/06/28 06:28:56 [notice] 31#31: gracefully shutting down
+2023/06/28 06:28:56 [notice] 25#25: gracefully shutting down
+2023/06/28 06:28:56 [notice] 29#29: gracefully shutting down
+2023/06/28 06:28:56 [notice] 30#30: gracefully shutting down
+2023/06/28 06:28:56 [notice] 35#35: gracefully shutting down
+2023/06/28 06:28:56 [notice] 33#33: gracefully shutting down
+2023/06/28 06:28:56 [notice] 34#34: gracefully shutting down
+2023/06/28 06:28:56 [notice] 24#24: exiting
+2023/06/28 06:28:56 [notice] 33#33: exiting
+2023/06/28 06:28:56 [notice] 28#28: exiting
+2023/06/28 06:28:56 [notice] 32#32: exiting
+2023/06/28 06:28:56 [notice] 20#20: exiting
+2023/06/28 06:28:56 [notice] 35#35: exiting
+2023/06/28 06:28:56 [notice] 23#23: exiting
+2023/06/28 06:28:56 [notice] 21#21: exiting
+2023/06/28 06:28:56 [notice] 22#22: exiting
+2023/06/28 06:28:56 [notice] 31#31: exiting
+2023/06/28 06:28:56 [notice] 30#30: exiting
+2023/06/28 06:28:56 [notice] 34#34: exiting
+2023/06/28 06:28:56 [notice] 29#29: exiting
+2023/06/28 06:28:56 [notice] 25#25: exiting
+2023/06/28 06:28:56 [notice] 27#27: exiting
+2023/06/28 06:28:56 [notice] 26#26: exiting
+2023/06/28 06:28:56 [notice] 33#33: exit
+2023/06/28 06:28:56 [notice] 28#28: exit
+2023/06/28 06:28:56 [notice] 25#25: exit
+2023/06/28 06:28:56 [notice] 23#23: exit
+2023/06/28 06:28:56 [notice] 26#26: exit
+2023/06/28 06:28:56 [notice] 21#21: exit
+2023/06/28 06:28:56 [notice] 20#20: exit
+2023/06/28 06:28:56 [notice] 31#31: exit
+2023/06/28 06:28:56 [notice] 30#30: exit
+2023/06/28 06:28:56 [notice] 35#35: exit
+2023/06/28 06:28:56 [notice] 22#22: exit
+2023/06/28 06:28:56 [notice] 24#24: exit
+2023/06/28 06:28:56 [notice] 32#32: exit
+2023/06/28 06:28:56 [notice] 29#29: exit
+2023/06/28 06:28:56 [notice] 34#34: exit
+2023/06/28 06:28:56 [notice] 27#27: exit
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/06/28 06:28:56 [notice] 1#1: worker process 28 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/06/28 06:28:56 [notice] 1#1: worker process 34 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/06/28 06:28:56 [notice] 1#1: worker process 26 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 20 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 35 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/06/28 06:28:56 [notice] 1#1: worker process 23 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 24 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 29 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 32 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/06/28 06:28:56 [notice] 1#1: worker process 27 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 31 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/06/28 06:28:56 [notice] 1#1: worker process 22 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/06/28 06:28:56 [notice] 1#1: worker process 21 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: worker process 33 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/06/28 06:28:56 [notice] 1#1: worker process 30 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/06/28 06:28:56 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/06/28 06:28:56 [notice] 1#1: worker process 25 exited with code 0
+2023/06/28 06:28:56 [notice] 1#1: exit
+2023/06/29 02:49:12 [notice] 1#1: using the "epoll" event method
+2023/06/29 02:49:12 [notice] 1#1: nginx/1.25.0
+2023/06/29 02:49:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/06/29 02:49:12 [notice] 1#1: OS: Linux 5.19.0-45-generic
+2023/06/29 02:49:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/06/29 02:49:12 [notice] 1#1: start worker processes
+2023/06/29 02:49:12 [notice] 1#1: start worker process 20
+2023/06/29 02:49:12 [notice] 1#1: start worker process 21
+2023/06/29 02:49:12 [notice] 1#1: start worker process 22
+2023/06/29 02:49:12 [notice] 1#1: start worker process 23
+2023/06/29 02:49:12 [notice] 1#1: start worker process 24
+2023/06/29 02:49:12 [notice] 1#1: start worker process 25
+2023/06/29 02:49:12 [notice] 1#1: start worker process 26
+2023/06/29 02:49:12 [notice] 1#1: start worker process 27
+2023/06/29 02:49:12 [notice] 1#1: start worker process 28
+2023/06/29 02:49:12 [notice] 1#1: start worker process 29
+2023/06/29 02:49:12 [notice] 1#1: start worker process 30
+2023/06/29 02:49:12 [notice] 1#1: start worker process 31
+2023/06/29 02:49:12 [notice] 1#1: start worker process 32
+2023/06/29 02:49:12 [notice] 1#1: start worker process 33
+2023/06/29 02:49:12 [notice] 1#1: start worker process 34
+2023/06/29 02:49:12 [notice] 1#1: start worker process 35
+2023/06/29 03:08:41 [warn] 20#20: *46 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: , request: "GET /wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5Bchunk_1%5D=,site-icon,l10n,buttons,wp-auth-check&ver=6.2.2 HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost:150", referrer: "http://localhost:150/wp-admin/themes.php"
+2023/06/29 04:36:26 [warn] 27#27: *598 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A150%2F"
+2023/06/29 06:15:12 [warn] 29#29: *710 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%3A150%2F&return=http%3A%2F%2Flocalhost%3A150%2F"
+2023/06/29 10:05:03 [warn] 22#22: *1457 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=13&action=edit"
+2023/06/29 10:27:23 [warn] 26#26: *1692 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=13&action=edit"
+2023/06/30 02:16:03 [warn] 30#30: *1961 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=13&action=edit"
+2023/06/30 02:17:13 [warn] 30#30: *1961 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=13&action=edit"
+2023/06/30 03:29:41 [warn] 34#34: *2292 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.1, server: , request: "POST /wp-admin/post.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=15&action=edit"
+2023/06/30 04:00:05 [warn] 35#35: *2374 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.1, server: , request: "POST /wp-admin/post.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=15&action=edit"
+2023/06/30 04:00:21 [warn] 35#35: *2374 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.1, server: , request: "POST /wp-admin/post.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=15&action=edit"
+2023/07/01 05:38:16 [notice] 343#343: signal process started
+2023/07/01 05:38:16 [notice] 1#1: signal 1 (SIGHUP) received from 343, reconfiguring
+2023/07/01 05:38:16 [notice] 1#1: reconfiguring
+2023/07/01 05:38:16 [notice] 1#1: using the "epoll" event method
+2023/07/01 05:38:16 [notice] 1#1: start worker processes
+2023/07/01 05:38:16 [notice] 1#1: start worker process 344
+2023/07/01 05:38:16 [notice] 1#1: start worker process 345
+2023/07/01 05:38:16 [notice] 1#1: start worker process 346
+2023/07/01 05:38:16 [notice] 1#1: start worker process 347
+2023/07/01 05:38:16 [notice] 1#1: start worker process 348
+2023/07/01 05:38:16 [notice] 1#1: start worker process 349
+2023/07/01 05:38:16 [notice] 1#1: start worker process 350
+2023/07/01 05:38:16 [notice] 1#1: start worker process 351
+2023/07/01 05:38:16 [notice] 1#1: start worker process 352
+2023/07/01 05:38:16 [notice] 1#1: start worker process 353
+2023/07/01 05:38:16 [notice] 1#1: start worker process 354
+2023/07/01 05:38:16 [notice] 1#1: start worker process 355
+2023/07/01 05:38:16 [notice] 1#1: start worker process 356
+2023/07/01 05:38:16 [notice] 1#1: start worker process 357
+2023/07/01 05:38:16 [notice] 1#1: start worker process 358
+2023/07/01 05:38:16 [notice] 1#1: start worker process 359
+2023/07/01 05:38:16 [notice] 20#20: gracefully shutting down
+2023/07/01 05:38:16 [notice] 21#21: gracefully shutting down
+2023/07/01 05:38:16 [notice] 26#26: gracefully shutting down
+2023/07/01 05:38:16 [notice] 27#27: gracefully shutting down
+2023/07/01 05:38:16 [notice] 28#28: gracefully shutting down
+2023/07/01 05:38:16 [notice] 31#31: gracefully shutting down
+2023/07/01 05:38:16 [notice] 29#29: gracefully shutting down
+2023/07/01 05:38:16 [notice] 33#33: gracefully shutting down
+2023/07/01 05:38:16 [notice] 35#35: gracefully shutting down
+2023/07/01 05:38:16 [notice] 34#34: gracefully shutting down
+2023/07/01 05:38:16 [notice] 23#23: gracefully shutting down
+2023/07/01 05:38:16 [notice] 30#30: gracefully shutting down
+2023/07/01 05:38:16 [notice] 22#22: gracefully shutting down
+2023/07/01 05:38:16 [notice] 25#25: gracefully shutting down
+2023/07/01 05:38:16 [notice] 32#32: gracefully shutting down
+2023/07/01 05:38:16 [notice] 24#24: gracefully shutting down
+2023/07/01 05:38:16 [notice] 32#32: exiting
+2023/07/01 05:38:16 [notice] 35#35: exiting
+2023/07/01 05:38:16 [notice] 35#35: exit
+2023/07/01 05:38:16 [notice] 24#24: exiting
+2023/07/01 05:38:16 [notice] 31#31: exiting
+2023/07/01 05:38:16 [notice] 32#32: exit
+2023/07/01 05:38:16 [notice] 27#27: exiting
+2023/07/01 05:38:16 [notice] 31#31: exit
+2023/07/01 05:38:16 [notice] 33#33: exiting
+2023/07/01 05:38:16 [notice] 33#33: exit
+2023/07/01 05:38:16 [notice] 22#22: exiting
+2023/07/01 05:38:16 [notice] 24#24: exit
+2023/07/01 05:38:16 [notice] 27#27: exit
+2023/07/01 05:38:16 [notice] 26#26: exiting
+2023/07/01 05:38:16 [notice] 21#21: exiting
+2023/07/01 05:38:16 [notice] 26#26: exit
+2023/07/01 05:38:16 [notice] 20#20: exiting
+2023/07/01 05:38:16 [notice] 30#30: exiting
+2023/07/01 05:38:16 [notice] 20#20: exit
+2023/07/01 05:38:16 [notice] 22#22: exit
+2023/07/01 05:38:16 [notice] 29#29: exiting
+2023/07/01 05:38:16 [notice] 28#28: exiting
+2023/07/01 05:38:16 [notice] 30#30: exit
+2023/07/01 05:38:16 [notice] 21#21: exit
+2023/07/01 05:38:16 [notice] 34#34: exiting
+2023/07/01 05:38:16 [notice] 34#34: exit
+2023/07/01 05:38:16 [notice] 25#25: exiting
+2023/07/01 05:38:16 [notice] 29#29: exit
+2023/07/01 05:38:16 [notice] 23#23: exiting
+2023/07/01 05:38:16 [notice] 28#28: exit
+2023/07/01 05:38:16 [notice] 23#23: exit
+2023/07/01 05:38:16 [notice] 25#25: exit
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/07/01 05:38:16 [notice] 1#1: worker process 28 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/07/01 05:38:16 [notice] 1#1: worker process 26 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: worker process 35 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/07/01 05:38:16 [notice] 1#1: worker process 30 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/07/01 05:38:16 [notice] 1#1: worker process 21 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: worker process 23 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: worker process 24 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: worker process 29 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: worker process 31 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: worker process 33 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/07/01 05:38:16 [notice] 1#1: worker process 34 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/07/01 05:38:16 [notice] 1#1: worker process 27 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/07/01 05:38:16 [notice] 1#1: worker process 32 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/07/01 05:38:16 [notice] 1#1: worker process 20 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/07/01 05:38:16 [notice] 1#1: worker process 25 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/01 05:38:16 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/07/01 05:38:16 [notice] 1#1: worker process 22 exited with code 0
+2023/07/01 05:38:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/07/02 01:42:24 [notice] 344#344: gracefully shutting down
+2023/07/02 01:42:24 [notice] 354#354: gracefully shutting down
+2023/07/02 01:42:24 [notice] 345#345: gracefully shutting down
+2023/07/02 01:42:24 [notice] 346#346: gracefully shutting down
+2023/07/02 01:42:24 [notice] 349#349: gracefully shutting down
+2023/07/02 01:42:24 [notice] 350#350: gracefully shutting down
+2023/07/02 01:42:24 [notice] 347#347: gracefully shutting down
+2023/07/02 01:42:24 [notice] 356#356: gracefully shutting down
+2023/07/02 01:42:24 [notice] 357#357: gracefully shutting down
+2023/07/02 01:42:24 [notice] 351#351: gracefully shutting down
+2023/07/02 01:42:24 [notice] 348#348: gracefully shutting down
+2023/07/02 01:42:24 [notice] 355#355: gracefully shutting down
+2023/07/02 01:42:24 [notice] 352#352: gracefully shutting down
+2023/07/02 01:42:24 [notice] 358#358: gracefully shutting down
+2023/07/02 01:42:24 [notice] 353#353: gracefully shutting down
+2023/07/02 01:42:24 [notice] 359#359: gracefully shutting down
+2023/07/02 01:42:24 [notice] 344#344: exiting
+2023/07/02 01:42:24 [notice] 358#358: exiting
+2023/07/02 01:42:24 [notice] 357#357: exiting
+2023/07/02 01:42:24 [notice] 351#351: exiting
+2023/07/02 01:42:24 [notice] 356#356: exiting
+2023/07/02 01:42:24 [notice] 350#350: exiting
+2023/07/02 01:42:24 [notice] 345#345: exiting
+2023/07/02 01:42:24 [notice] 354#354: exiting
+2023/07/02 01:42:24 [notice] 355#355: exiting
+2023/07/02 01:42:24 [notice] 349#349: exiting
+2023/07/02 01:42:24 [notice] 359#359: exiting
+2023/07/02 01:42:24 [notice] 352#352: exiting
+2023/07/02 01:42:24 [notice] 347#347: exiting
+2023/07/02 01:42:24 [notice] 348#348: exiting
+2023/07/02 01:42:24 [notice] 353#353: exiting
+2023/07/02 01:42:24 [notice] 346#346: exiting
+2023/07/02 01:42:24 [notice] 344#344: exit
+2023/07/02 01:42:24 [notice] 353#353: exit
+2023/07/02 01:42:24 [notice] 355#355: exit
+2023/07/02 01:42:24 [notice] 345#345: exit
+2023/07/02 01:42:24 [notice] 346#346: exit
+2023/07/02 01:42:24 [notice] 359#359: exit
+2023/07/02 01:42:24 [notice] 351#351: exit
+2023/07/02 01:42:24 [notice] 352#352: exit
+2023/07/02 01:42:24 [notice] 348#348: exit
+2023/07/02 01:42:24 [notice] 358#358: exit
+2023/07/02 01:42:24 [notice] 349#349: exit
+2023/07/02 01:42:24 [notice] 347#347: exit
+2023/07/02 01:42:24 [notice] 354#354: exit
+2023/07/02 01:42:24 [notice] 357#357: exit
+2023/07/02 01:42:24 [notice] 356#356: exit
+2023/07/02 01:42:24 [notice] 350#350: exit
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 355
+2023/07/02 01:42:24 [notice] 1#1: worker process 355 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 350 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 350
+2023/07/02 01:42:24 [notice] 1#1: worker process 344 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 356 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 346
+2023/07/02 01:42:24 [notice] 1#1: worker process 346 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 347 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 347
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 349
+2023/07/02 01:42:24 [notice] 1#1: worker process 349 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 352
+2023/07/02 01:42:24 [notice] 1#1: worker process 352 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 358
+2023/07/02 01:42:24 [notice] 1#1: worker process 358 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 351 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 345 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 353 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: worker process 357 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 353
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 348
+2023/07/02 01:42:24 [notice] 1#1: worker process 348 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 359
+2023/07/02 01:42:24 [notice] 1#1: worker process 359 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/07/02 01:42:24 [notice] 1#1: signal 17 (SIGCHLD) received from 354
+2023/07/02 01:42:24 [notice] 1#1: worker process 354 exited with code 0
+2023/07/02 01:42:24 [notice] 1#1: exit
+2023/07/02 01:42:39 [emerg] 1#1: no "events" section in configuration
+2023/07/02 01:46:57 [notice] 39#39: signal process started
+2023/07/02 01:47:38 [notice] 49#49: signal process started
+2023/07/02 01:47:50 [notice] 59#59: signal process started
+2023/07/02 01:49:08 [notice] 69#69: signal process started
+2023/07/02 01:49:30 [error] 30#30: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
+2023/07/02 02:12:19 [error] 30#30: *183 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
+2023/07/02 02:12:22 [error] 30#30: *182 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
+2023/07/02 02:12:39 [error] 29#29: *152 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
+2023/07/02 02:13:41 [notice] 43#43: signal process started
