@@ -7,13 +7,6 @@ services:
     ports:
       - 8000:9000
     container_name: wordpress
-  certbot:
-    image: certbot/certbot
-    volumes:
-      - /path/to/certbot/config:/etc/letsencrypt
-      - /path/to/certbot/certs:/etc/letsencrypt/archive
-      - /wordpress:/var/www/html
-    command: certonly --webroot --webroot-path /var/www/html --email aleksander.freelancer@gmail.com --agree-tos --no-eff-email --force-renewal -d cosmos-prosto.space
   nginx:
     image: nginx:latest
     container_name: server
@@ -21,7 +14,7 @@ services:
       - ./wordpress/:/var/www/html
       - ./nginx/nginx.conf/:/etc/nginx/nginx.conf
       - ./nginx/logs/:/var/log/nginx
-      - ./certbot/certs:/etc/nginx/ssl:ro
+      - ./certs/cosmos-site:/etc/letsencrypt/live/cosmos-prosto.space
     ports:
       - 150:120
       - 443:443
