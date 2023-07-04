@@ -1,7 +1,7 @@
 <?php
 
     add_action( 'admin_post_add_bid_action', 'process_custom_form' );
-    add_action( 'admin_post_nopriv_add_bid_actionn', 'process_custom_form' );
+    add_action( 'admin_post_nopriv_add_bid_action', 'process_custom_form' );
     
     function process_custom_form() {
         // Получите данные из формы
