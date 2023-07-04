@@ -30,7 +30,7 @@ services:
     volumes:
       - ./etc/letsencrypt:/etc/letsencrypt
       - ./wordpress/:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email pavlenko.at@mail.ru --agree-tos --no-eff-email -d test.world-itech.ru
+    command: certonly --webroot --webroot-path=/var/www/html --email pavlenko.at@mail.ru --agree-tos --no-eff-email -d cosmos-prosto.space
   db:
     image: mysql:8.0
     environment:
