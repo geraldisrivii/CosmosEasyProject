@@ -48,11 +48,11 @@
         <form class="index-section-3-form" action="<?= esc_url( admin_url('admin-post.php') ); ?>" method="post">
             <input type="hidden" name="action" value="add_bid_action">
             <?php
-                $formItems = CFS()->get('formItem');
+                $formItems = CFS()->get('form_fields');
                 foreach ($formItems as $formItem) {
                     $formItem = (object)$formItem;
                     ?>
-                        <input class="index-section-3-form__item" type="text" name="<?= $formItem->formItem_name ?>" placeholder="<?= $formItem->formItem_text ?>">
+                        <input class="index-section-3-form__item" type="text" name="<?= $formItem->field_name ?>" placeholder="<?= $formItem->field_text ?>">
                     <?php
                 }
             
@@ -65,15 +65,15 @@
     <section class="index-section-4 container">
         <div class="index-section-4-header-image-box">
             <div class="header-box index-section-4-header-image-box__header-box">
-                <p class="header-box__title"><?= CFS()->get('FAQ_sub_title'); ?></p>
-                <h2 class="header-box__main-title"><?= CFS()->get('FAQ_main_title'); ?></h2>
+                <p class="header-box__title"><?= CFS()->get('section_4_sub_title'); ?></p>
+                <h2 class="header-box__main-title"><?= CFS()->get('section_4_main_title'); ?></h2>
             </div>
-            <img class="index-section-4-header-image-box__image" src="<?= CFS()->get('image_section_4'); ?>"
+            <img class="index-section-4-header-image-box__image" src="<?= CFS()->get('section_4_image'); ?>"
                 alt="commets">
         </div>
         <div class="FAQ-box">
             <?php 
-                $FAQ_items = CFS()->get('FAQ_item');
+                $FAQ_items = CFS()->get('section_4_FAQ_items');
                 foreach ($FAQ_items as $FAQ_item) {
                     $FAQ_item = (object)$FAQ_item;
                 ?>
