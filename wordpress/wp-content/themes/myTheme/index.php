@@ -2,8 +2,15 @@
 
 
 <main class="index-main">
-    <section class="index-section-1"
-        style="background:url(<?= CFS()->get('section_1_background') ?>) center/cover no-repeat;">
+    <style>
+        .index-section-1{
+            background: url(<?= CFS()->get('section_1_background') ?>) center/cover no-repeat;
+            @media (max-width: 500px){
+                background: url(<?= CFS()->get('section_1_background_modile') ?>) center/cover no-repeat;
+            }
+        }
+    </style>
+    <section class="index-section-1">
         <div class="index-section-1-content-box container">
             <div class="index-section-1-content">
                 <div class="header-box index-section-1-content__header-box">
