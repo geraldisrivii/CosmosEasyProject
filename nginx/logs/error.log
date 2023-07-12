@@ -829,3 +829,4 @@
 2023/07/12 10:40:59 [error] 23#23: *68 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
 2023/07/12 10:41:09 [error] 23#23: *69 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
 2023/07/12 10:41:25 [error] 23#23: *69 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
+2023/07/12 12:25:23 [error] 24#24: *132 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/"
