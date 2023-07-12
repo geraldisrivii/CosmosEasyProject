@@ -18,7 +18,7 @@
                     <h2 class="header-box__main-title"><?= CFS()->get('section_1_main_title'); ?></h2>
                 </div>
                 <p class="index-section-1-content__text"><?= CFS()->get('section_1_text'); ?></p>
-                <button class="button"><?= CFS()->get('section_1_button'); ?></button>
+                <button aria-label="<?= CFS()->get('section_1_button'); ?>" class="button"><?= CFS()->get('section_1_button'); ?></button>
             </div>
         </div>
     </section>
@@ -34,7 +34,7 @@
                     $cardObject = (object)$card;
                     ?>
             <div class="diginity <?= $key % 2 == 0 ? '' : 'diginity_reverse' ?> diginity-box__diginity">
-                <img class="diginity__image" src="<?= $cardObject->card_image ?>" alt="logo">
+                <img style="width: 400px; height: 250px" class="diginity__image" src="<?= $cardObject->card_image ?>" alt="logo">
                 <div class="giginity-description">
                     <h3 class="giginity-description__title"><?= $cardObject->card_header ?> </h3>
                     <p class="giginity-description__text"><?= $cardObject->card_text ?></p>
@@ -64,7 +64,7 @@
                 }
             
             ?>
-            <button class="button index-section-3-form__button"><?= CFS()->get('section_3_button'); ?></button>
+            <button aria-label="<?= CFS()->get('section_3_button'); ?>" class="button index-section-3-form__button"><?= CFS()->get('section_3_button'); ?></button>
         </form>
 
         <div class="index-section-3__line"></div>
@@ -89,7 +89,7 @@
                             <p class="FAQ-item-visible__title"><?= $FAQ_item->FAQ_questiion ?></p>
                             <div class="FAQ-item-visible__line"></div>
                             <div class="FAQ-item-visible__button arrow-button">
-                                <img src="<?= get_template_directory_uri() . '/assets/img/arrow.svg' ?>"
+                                <img style="width: 15px; height: 16px" src="<?= get_template_directory_uri() . '/assets/img/arrow.svg' ?>"
                                 class="arrow-button__image" alt="arrow">
                         </div>
                     </div>

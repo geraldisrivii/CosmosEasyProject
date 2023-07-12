@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= the_title(); ?></title>
     <?=wp_head();?>
-    
+    <meta name="description" content="Put your description here.">
 </head>
 
 <body>
