@@ -40,8 +40,10 @@
     add_action('wp_enqueue_scripts', 'add_styles_and_scripts');
     add_theme_support('custom-logo');
     function add_styles_and_scripts() {
-        wp_enqueue_script('FAQitem' , get_template_directory_uri() . '/assets/js/FAQitem.js', false, null, 'footer');
-        wp_enqueue_script('Gamburger',  get_template_directory_uri() . '/assets/js/Gamburger.js', false, null, 'footer');
+        wp_enqueue_script('cookieLib' , get_template_directory_uri() . '/assets/js/cookieLib.js', false, null, 'footer');
+        wp_enqueue_script('sweetAlert' , get_template_directory_uri() . '/assets/js/sweetAlert.js', false, null, 'footer');
+        wp_enqueue_script('FAQitem' , get_template_directory_uri() . '/assets/js/FAQitem.js', array('cookieLib', 'sweetAlert'), null, 'footer');
+        wp_enqueue_script('Gamburger',  get_template_directory_uri() . '/assets/js/Gamburger.js', array('cookieLib', 'sweetAlert'), null, 'footer');
 
         // styles
 

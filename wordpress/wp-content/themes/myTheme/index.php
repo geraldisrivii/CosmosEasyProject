@@ -6,7 +6,7 @@
         .index-section-1{
             background: url(<?= CFS()->get('section_1_background') ?>) center/cover no-repeat;
             @media (max-width: 500px){
-                background: url(<?= CFS()->get('section_1_background_modile') ?>) center/cover no-repeat;
+                background: url(<?= CFS()->get('section_1_background_mobile') ?>) center/cover no-repeat;
             }
         }
     </style>

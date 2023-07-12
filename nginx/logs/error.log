@@ -800,3 +800,4 @@
 2023/07/11 05:47:39 [error] 46#46: *263 client intended to send too large body: 1415380 bytes, client: 172.18.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=5&action=edit"
 2023/07/11 05:47:54 [error] 46#46: *262 client intended to send too large body: 1415384 bytes, client: 172.18.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=5&action=edit"
 2023/07/11 05:48:31 [error] 46#46: *284 client intended to send too large body: 1415384 bytes, client: 172.18.0.1, server: , request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "localhost:150", referrer: "http://localhost:150/wp-admin/post.php?post=5&action=edit"
+2023/07/12 03:40:17 [emerg] 1#1: unknown directive "я" in /etc/nginx/nginx.conf:19
