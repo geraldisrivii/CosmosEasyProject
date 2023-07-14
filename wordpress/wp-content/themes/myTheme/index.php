@@ -34,7 +34,7 @@
                     $cardObject = (object)$card;
                     ?>
             <div class="diginity <?= $key % 2 == 0 ? '' : 'diginity_reverse' ?> diginity-box__diginity">
-                <img style="width: 400px; height: 250px" class="diginity__image" src="<?= $cardObject->card_image ?>" alt="logo">
+                <img style="object-fit:contain; width: 320px; height: 250px" class="diginity__image" src="<?= $cardObject->card_image ?>" alt="logo">
                 <div class="giginity-description">
                     <h3 class="giginity-description__title"><?= $cardObject->card_header ?> </h3>
                     <p class="giginity-description__text"><?= $cardObject->card_text ?></p>

@@ -46,8 +46,20 @@
         wp_enqueue_script('Gamburger',  get_template_directory_uri() . '/assets/js/Gamburger.js', array('cookieLib', 'sweetAlert'), null, 'footer');
 
         // styles
-
-        wp_enqueue_style('fonts', get_template_directory_uri() . '/assets/css/fonts.css');
+        wp_dequeue_style('wp-block-library');
+        // wp_enqueue_style('fonts', get_template_directory_uri() . '/assets/css/fonts.css');
         wp_enqueue_style('main', get_stylesheet_uri());
     }
+
+    add_action('wp_footer', 'add_deferred_styles_script');
+
+    function add_deferred_styles_script(){
+        $loadCssUri = get_template_directory_uri() . '/assets/js/loadCss.js';
+        $basePath = get_template_directory_uri();
+        echo "<script src='{$loadCssUri}'></script>";
+        echo "<script>
+                loadCSS('{$basePath}/assets/css/fonts.css');
+            </script>";
+    }
+
 ?>

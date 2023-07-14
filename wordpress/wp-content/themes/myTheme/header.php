@@ -31,7 +31,7 @@
                 <li class="site-nav__item"><a href="#" class="site-nav__link">ЗАНЯТИЯ</a></li>
             </ul>
         </div>
-        <button class="gamburger">
+        <button aria-label="menu" class="gamburger">
             <div class="gamburger__item"></div>
             <div class="gamburger__item"></div>
             <div class="gamburger__item"></div>
